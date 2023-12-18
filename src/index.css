@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+body {
+  padding: 50px;
+  color: #f7f7f7;
+  min-height: 100vh;
+  background: #ecb3b3;;
+  text-rendering: optimizeSpeed;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.App_todo {
+  padding: 1rem;
+ width: 600px;
+  height: 700px;
+  margin: 400px auto;
+  text-align: center;
+  background: #634641;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px;
+  border-radius: 50px;
+}
+
+h1 {
+  font-weight: 300;
+  color: #ecb3b3;
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+.todos {
+  margin: 3.5rem;
+}
+
+.todos-wrapper {
+  margin-bottom: 2.5rem;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+input {
+  width: 450px;
+  padding: 0.8em;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 120px;
+  padding: 0.8em;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+input{
+  font-size: 1em;
+  appearance: none;
+  color: currentcolor;
+  background: transparent;
+  border: 1px solid #d996b9;
+  gap: 20px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+button{
+  font-size: 1em;
+  appearance: none;
+  color: currentcolor;
+  background: transparent;
+  border: 1px solid #d996b9;
+  gap: 20px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.add_todo_button {
+  color: #ecb3b3;
+  border-left: none;
+  margin-right: 24px;
+  margin-top: 40px;
+
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+li {
+  width: 450px;
+  padding: 0.85em;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  background: #494847;
+  letter-spacing: 0.02rem;
+  transition: all 0.3s ease-out;
+  border-left: 5px solid #d996b9;
+}
+
+
+
+.text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #e6adca;
+  letter-spacing: 0.2rem;
+  margin-top: 200px;
+}
+
